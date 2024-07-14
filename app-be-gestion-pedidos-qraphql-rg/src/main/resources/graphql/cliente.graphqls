@@ -1,0 +1,12 @@
+type Cliente {
+  id: ID!
+  razonSocial: String!
+  ruc: String!
+  direccion: String!
+  correo:String
+}
+
+type Query {
+  listAll: [Cliente]!
+}
+
